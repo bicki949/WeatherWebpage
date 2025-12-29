@@ -1,0 +1,41 @@
+ .infobox {
+  background: rgba(255, 255, 255, 0.15); /* glass effect */
+   backdrop-filter: blur(10px);           /* blur behind the card */
+   border-radius: 15px;
+  padding: 20px 25px;
+  margin-top: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  text-align: center;
+  transition: transform 0.3s;
+}  
+
+
+
+.infobox:hover {
+  transform: translateY(-10px) scale(1.02); /* floats slightly */
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
+/* .city-name {
+    color: black;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+} */
+.city-name {
+  color:#111;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  text-shadow: 0 1px 3px rgba(255, 255, 255, 0.7); /* makes text stand out */
+}
+
+.weather-details p {
+  margin: 8px 0;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+.infobox p{
+    margin-top: 20px;
+    font-size: 1.1 rem;
+}
